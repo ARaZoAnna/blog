@@ -65,12 +65,12 @@ github에서 공식적으로 제공하는 CI/CD 툴이다. 개발의 work flow�
 - Github의 배포할 레포지토리에서 settings에 들어갑니다.
 
     
-    ![settings](image/github/settings.jpg)
+    ![settings](img/github/settings.jpg)
     
 
 settings → Secrets and variables → Actions → New repository secret
 
-![EC2](image/github/ec2.png)
+![EC2](img/github/ec2.png)
 
 EC2_HOST : AWS IP주소
 
