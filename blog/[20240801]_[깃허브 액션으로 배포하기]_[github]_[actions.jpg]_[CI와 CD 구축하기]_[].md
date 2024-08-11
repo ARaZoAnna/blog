@@ -12,7 +12,7 @@ github에서 공식적으로 제공하는 CI/CD 툴이다. 개발의 work flow�
 
 코어 개념
 
-* Workflow
+###### Workflow
     - 자동화된 전체 프로세스이다. 하나의 이상의 Job으로 구성되고, Event에 의해 예약되거나 트리거 될 수 있는 자동화된 절차를 말한다.
     - Workflow 파일은 YAML으로 작성되고, Github Repository의 `.github/workflows` 폴더 아래에 저장된다.
     - Github에서 YAML 파일로 정의한 자동화 동작을 전달하면, Github Actions는 해당 파일을 기반으로 그대로 실행한다.
