@@ -21,11 +21,11 @@ EC2  서버 에러
 
 런타임 에러를 확인하기 위해 서버에서 spring을 띄웠다. 
 
-![Untitled](img/issue/Untitled2.jpg)
+![Untitled](../img/issue/Untitled2.jpg)
 
 사이트에 접속하자 에러를 확인할 수 있었다. 
 
-![Untitled](img/issue/Untitled3.jpg)
+![Untitled](../img/issue/Untitled3.jpg)
 
 - 에러내용
 
@@ -59,15 +59,15 @@ TO-BE : layout/header.html
 
 - 이전 경로 설정
 
-![Untitled](img/issue/Untitled4.jpg)
+![Untitled](../img/issue/Untitled4.jpg)
 
-![Untitled](img/issue/Untitled5.jpg)
+![Untitled](../img/issue/Untitled5.jpg)
 
 - 경로 수정
 
-![Untitled](img/issue/Untitled6.jpg)
+![Untitled](../img/issue/Untitled6.jpg)
 
-![Untitled](img/issue/Untitled7.jpg)
+![Untitled](../img/issue/Untitled7.jpg)
 
 ---
 
