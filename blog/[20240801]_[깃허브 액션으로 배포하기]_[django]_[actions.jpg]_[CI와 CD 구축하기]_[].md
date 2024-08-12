@@ -70,7 +70,7 @@ github에서 공식적으로 제공하는 CI/CD 툴이다. 개발의 work flow�
 
 settings → Secrets and variables → Actions → New repository secret
 
-![EC2](img/github/Untitled7.png)
+![EC2](img/github/ec2.jpg)
 
 EC2_HOST : AWS IP주소
 
@@ -89,7 +89,7 @@ EC2_KEY : AWS의 pem키를 넣습니다.
 - IntelliJ 코드 내 프로젝트 최상단에 `.github` 디렉터리를 만듭니다. 그 안에 `workflows` 디렉터리를 다시 반들고, `gradle.yml`  파일을 생성합니다.
 
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%202.png)
+![yml](img/github/yml.jpg)
 
 - `gradle.yml` 파일에 코드를 설정 코드를 작성합니다(작성 후 커밋합니다)
     - 현재 코드는 AWS에 로드한 jar 파일을 백그라운드에서 실행시키는 코드도 포함되어 있습니다.
@@ -328,23 +328,23 @@ jar{
 ###### CI/CD완료
     - 에러가 난다면 yml의 문제일 가능성이 큽니다.
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%203.png)
+![배포 완료](img/github/build.jpg)
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%204.png)
+![배포 완료 화면](img/github/build2.jpg)
 
 - AWS 서버에 접속하면 jar 파일이 올라간 것을 알 수 있습니다
 
 ssh -i [키이름].pem ubuntu@[AWS서버IP]
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%205.png)
+![aws 접속](img/github/aws.jpg)
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%206.png)
+![배포 파일](img/github/aws2.jpg)
 
 - 로드한 jar 파일을 직접 실행하는 코드입니다
 
 nohup java -jar /home/ubuntu/*.jar?/dev/null 2>&1 &
 
-![Untitled](Github%20Action%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20CI%20CD%20%E1%84%80%E1%85%AE%E1%84%8E%E1%85%AE%E1%86%A8%20e78c50c996594c57a46311789d992122/Untitled%207.png)
+![배포 확인](img/github/jsp.jpg)
 
 <aside>
 💥 nohup : 백그라운드에서 실행하는 명령어
