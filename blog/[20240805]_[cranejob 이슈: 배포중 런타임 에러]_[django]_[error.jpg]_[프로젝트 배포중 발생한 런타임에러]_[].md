@@ -7,11 +7,11 @@
 
 로컬
 
-![Untitled](img/issue/Untitled.jpg)
+![Untitled](../img/issue/Untitled.jpg)
 
 EC2  서버 에러
 
-![Untitled](img/issue/Untitled1.jpg)
+![Untitled](../img/issue/Untitled1.jpg)
 
 ## 에러 확인
 
