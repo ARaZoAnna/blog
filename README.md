@@ -1,22 +1,8 @@
-# WENIVLOG
+# 개발 Blog
+- 블로그 주소 : https://arazoanna.github.io/blog/
 
-## 프로젝트 소개
-- GitHub Pages를 활용하여 블로그를 손쉽게 제작할 수 있는 서비스입니다.
-- fork를 이용하여 자신의 레포지토리로 이동하여 나만의 블로그를 제작할 수 있습니다.
-
-## 개발 정보
-- 개발사: 주식회사 위니브
-- 버전: v1.0.0
-
-- 서비스 URL 정보
-  - 매뉴얼 페이지: https://blog.weniv.co.kr/
-  - 블로그 페이지(예시): https://weniv.github.io/weniv_blog/
-
-
-## 스폰서
-- 커피 한 잔 값으로 위니브의 활동을 지원하고 기여자로 참여하세요!
-
-[후원하기](https://github.com/sponsors/weniv?o=esb)
+## 소개
+- 꾸준히 개발 공부를 하기 위해 Blog를 개설했습니다
 
 
 ## 사용 가이드
